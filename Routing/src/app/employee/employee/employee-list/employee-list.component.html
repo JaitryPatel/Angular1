@@ -1,0 +1,10 @@
+<p>employee-list works!</p>
+<div> 
+    <ul class="nav-items">
+        <div *ngFor="let emp of employees">
+            <li> 
+                <a routerLink="/emp-details/{{emp.id}}">{{emp.name}}</a>
+            </li>
+        </div>
+    </ul>
+</div>

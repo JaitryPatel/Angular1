@@ -1,0 +1,32 @@
+<!-- <p>employee-list works!</p> -->
+
+<h1>Employee Table</h1>
+
+<!-- <app-employee></app-employee> -->
+<input type="text" class="text" placeholder="Search..." name="search">
+<div class="table">
+<table>
+    <thead>
+        <tr *ngFor="let item of tableheader">
+            <th>{{item.id}}</th>
+            <th>{{item.name}}</th>
+            <th>{{item.department}}</th>
+            <th>{{item.age}}</th>
+            <th>{{item.date}}</th>
+            <th>{{item.salary}}</th>
+            <th>{{item.country}}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of employee;">
+            <td>{{item.id}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.department}}</td>
+            <td>{{item.age}}</td>
+            <td>{{item.date}}</td>
+            <td>{{item.salary}}</td>
+            <td>{{item.country}} </td>
+           </tr>
+    </tbody>
+</table>
+</div>
