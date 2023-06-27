@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "Om Patel",
+      "department": "QA",
+      "age": 15,
+      "salary": "10,00,000",
+      "country": "Ahmedavad"
+    },
+    {
+      "id": 12,
+      "name": "Jaitry",
+      "department": "Frontend",
+      "age": "21",
+      "salary": "10,00,000",
+      "country": "India"
+    }
+  ]
+}
